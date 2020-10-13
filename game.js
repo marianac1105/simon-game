@@ -86,7 +86,7 @@ function checkAnswer(x) {
       $("body").removeClass("game-over")
 
     }, 200);
-    $("h1").text("GAME OVER, Prees any Key to restart")
+    $("h1").text("GAME OVER, press any key to restart")
     restart();
 
   }
